@@ -8,9 +8,7 @@ ol, ul {
     margin-bottom: 0;
     padding-left: 0;
 }
-ul li:last-child{
-    margin-right: 0;
-}
+
 img {
     display: block;
 }
@@ -58,6 +56,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 0;
 }
 .page-navigation {
     display: flex;
@@ -82,7 +81,6 @@ button {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .menu, .contact {
@@ -97,7 +95,7 @@ button {
 }
 .contact-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .contact-list-link {
     font-weight: 400;
@@ -159,7 +157,7 @@ button {
 }
 .benefits-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .benefits-list-item{
     width: 264px;
@@ -198,7 +196,7 @@ button {
 
 .team-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     width: calc((100% - 3*24) / 4);
 }
 
@@ -234,7 +232,7 @@ button {
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
     row-gap: 48px;
 
 }
